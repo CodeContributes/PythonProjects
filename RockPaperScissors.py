@@ -24,7 +24,9 @@ while True:
     print("The computer chose scissors. You win!")
   elif de == "scissors" and choice == "paper":
     print("The computer chose scissors. You lose!")
-
+  else:
+    print("That is not a valid response. Try again.")
+    
   print("Do you want to restart ? Yes or No")
   response = input()
   if not response == "Yes":
