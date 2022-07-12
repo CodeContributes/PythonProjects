@@ -8,7 +8,7 @@ while True:
   d =["rock", "paper", "scissors"]
   de = random.choice(d)
 
-  choice = input("Do you choose rock, paper, or scissors? ")
+  print(choice:=input("Do you choose rock, paper, or scissors? "))
 
   if de == choice :
     print("You and the computer have the same answer! Try again.")
