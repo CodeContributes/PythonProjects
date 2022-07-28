@@ -1,0 +1,14 @@
+class Rectangle:
+  def __init__(self, base, height):
+    self.base = base
+    self.height = height
+
+  def area(self):
+    return self.base * self.height
+
+  def perimeter(self):
+    return self.base * 2 + self.height * 2
+
+rectange1 = Rectangle(10,20)
+print("Rectangle area is: " + str(rectange1.area()))
+print("Rectangle perimeter is: " + str(rectange1.perimeter()))
